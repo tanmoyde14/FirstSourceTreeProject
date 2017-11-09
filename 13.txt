@@ -1,0 +1,32 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170913120224
+Username: OLF\Tanmoyd
+RunAs User: OLF\Tanmoyd
+Machine: BENGLAP43 (Microsoft Windows NT 10.0.15063.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 5568
+PSVersion: 5.1.15063.502
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.15063.502
+BuildVersion: 10.0.15063.502
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\tanmoyd\Desktop\Uniper\13.txt
+PS C:\Windows\system32> Get-ExecutionPolicy
+Restricted
+PS C:\Windows\system32> Set-ExecutionPolicy
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Windows\system32> Get-Command -noun execution policy
+PS C:\Windows\system32> Get-Command -noun execution*
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-ExecutionPolicy                                3.0.0.0    Microsoft.PowerShell.Security
+Cmdlet          Set-ExecutionPolicy                                3.0.0.0    Microsoft.PowerShell.Security
+
+
